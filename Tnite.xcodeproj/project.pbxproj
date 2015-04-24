@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C95A511AE59D5800A48EB1 /* *Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A501AE59D5800A48EB1 /* *Feed.swift */; };
+		23C95A531AE59EFD00A48EB1 /* SwiftOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A521AE59EFD00A48EB1 /* SwiftOverlays.swift */; };
+		23C95A561AE5A00A00A48EB1 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A551AE5A00A00A48EB1 /* SwiftyUserDefaults.swift */; };
+		23C95A581AE5A65D00A48EB1 /* *AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A571AE5A65D00A48EB1 /* *AddressBook.swift */; };
+		23C95A5C1AE5A9E600A48EB1 /* JMBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A5B1AE5A9E600A48EB1 /* JMBackend.swift */; };
+		23C95A5E1AE5A9FD00A48EB1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A5D1AE5A9FD00A48EB1 /* SwiftyJSON.swift */; };
+		23C95A601AE5AA0F00A48EB1 /* JMAddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A5F1AE5AA0F00A48EB1 /* JMAddressBook.swift */; };
+		23C95A621AE5EB1C00A48EB1 /* structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95A611AE5EB1C00A48EB1 /* structs.swift */; };
+		23CF378B1AE74F340087B5E8 /* YNCircleIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CF37881AE74F340087B5E8 /* YNCircleIndicator.swift */; };
+		23CF378C1AE74F340087B5E8 /* YNImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CF37891AE74F340087B5E8 /* YNImageView.swift */; };
+		23CF378D1AE74F340087B5E8 /* YNImageAsyncExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CF378A1AE74F340087B5E8 /* YNImageAsyncExtensions.swift */; };
+		76A57D0A196ACFB200B08A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A57D09196ACFB200B08A98 /* AppDelegate.swift */; };
+		76A57D0C196ACFB200B08A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A57D0B196ACFB200B08A98 /* ViewController.swift */; };
+		76A57D0F196ACFB200B08A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A57D0D196ACFB200B08A98 /* Main.storyboard */; };
+		76A57D11196ACFB200B08A98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A57D10196ACFB200B08A98 /* Images.xcassets */; };
+		76A57D1D196ACFB200B08A98 /* SwiftBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A57D1C196ACFB200B08A98 /* SwiftBookTests.swift */; };
+		76A57D28196ACFFC00B08A98 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A57D27196ACFFC00B08A98 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A57D17196ACFB200B08A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A57CFC196ACFB200B08A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A57D03196ACFB200B08A98;
+			remoteInfo = SwiftBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C95A501AE59D5800A48EB1 /* *Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "*Feed.swift"; path = "../*Feed.swift"; sourceTree = "<group>"; };
+		23C95A521AE59EFD00A48EB1 /* SwiftOverlays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftOverlays.swift; sourceTree = "<group>"; };
+		23C95A551AE5A00A00A48EB1 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaults.swift; sourceTree = "<group>"; };
+		23C95A571AE5A65D00A48EB1 /* *AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "*AddressBook.swift"; sourceTree = "<group>"; };
+		23C95A5B1AE5A9E600A48EB1 /* JMBackend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMBackend.swift; sourceTree = "<group>"; };
+		23C95A5D1AE5A9FD00A48EB1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		23C95A5F1AE5AA0F00A48EB1 /* JMAddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMAddressBook.swift; sourceTree = "<group>"; };
+		23C95A611AE5EB1C00A48EB1 /* structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structs.swift; sourceTree = "<group>"; };
+		23CF37881AE74F340087B5E8 /* YNCircleIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNCircleIndicator.swift; sourceTree = "<group>"; };
+		23CF37891AE74F340087B5E8 /* YNImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNImageView.swift; sourceTree = "<group>"; };
+		23CF378A1AE74F340087B5E8 /* YNImageAsyncExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNImageAsyncExtensions.swift; sourceTree = "<group>"; };
+		76A57D04196ACFB200B08A98 /* Tnite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tnite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A57D08196ACFB200B08A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A57D09196ACFB200B08A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76A57D0B196ACFB200B08A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76A57D0E196ACFB200B08A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A57D10196ACFB200B08A98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76A57D16196ACFB200B08A98 /* TniteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TniteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A57D1B196ACFB200B08A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A57D1C196ACFB200B08A98 /* SwiftBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBookTests.swift; sourceTree = "<group>"; };
+		76A57D27196ACFFC00B08A98 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
+		76A57D29196AD5BD00B08A98 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A57D01196ACFB200B08A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A57D28196ACFFC00B08A98 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A57D13196ACFB200B08A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C95A541AE59F0400A48EB1 /* Addons */ = {
+			isa = PBXGroup;
+			children = (
+				23C95A5F1AE5AA0F00A48EB1 /* JMAddressBook.swift */,
+				23C95A5B1AE5A9E600A48EB1 /* JMBackend.swift */,
+				23C95A5D1AE5A9FD00A48EB1 /* SwiftyJSON.swift */,
+				23C95A611AE5EB1C00A48EB1 /* structs.swift */,
+				23C95A551AE5A00A00A48EB1 /* SwiftyUserDefaults.swift */,
+				23C95A521AE59EFD00A48EB1 /* SwiftOverlays.swift */,
+				23CF37881AE74F340087B5E8 /* YNCircleIndicator.swift */,
+				23CF37891AE74F340087B5E8 /* YNImageView.swift */,
+				23CF378A1AE74F340087B5E8 /* YNImageAsyncExtensions.swift */,
+			);
+			name = Addons;
+			sourceTree = "<group>";
+		};
+		76A57CFB196ACFB200B08A98 = {
+			isa = PBXGroup;
+			children = (
+				76A57D06196ACFB200B08A98 /* SwiftBook */,
+				76A57D19196ACFB200B08A98 /* SwiftBookTests */,
+				76A57D05196ACFB200B08A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A57D05196ACFB200B08A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A57D04196ACFB200B08A98 /* Tnite.app */,
+				76A57D16196ACFB200B08A98 /* TniteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A57D06196ACFB200B08A98 /* SwiftBook */ = {
+			isa = PBXGroup;
+			children = (
+				23C95A541AE59F0400A48EB1 /* Addons */,
+				76A57D0B196ACFB200B08A98 /* ViewController.swift */,
+				23C95A501AE59D5800A48EB1 /* *Feed.swift */,
+				23C95A571AE5A65D00A48EB1 /* *AddressBook.swift */,
+				76A57D09196ACFB200B08A98 /* AppDelegate.swift */,
+				76A57D29196AD5BD00B08A98 /* Bridging-Header.h */,
+				76A57D0D196ACFB200B08A98 /* Main.storyboard */,
+				76A57D10196ACFB200B08A98 /* Images.xcassets */,
+				76A57D07196ACFB200B08A98 /* Supporting Files */,
+				76A57D26196ACFEA00B08A98 /* Frameworks */,
+			);
+			path = SwiftBook;
+			sourceTree = "<group>";
+		};
+		76A57D07196ACFB200B08A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A57D08196ACFB200B08A98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A57D19196ACFB200B08A98 /* SwiftBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A57D1C196ACFB200B08A98 /* SwiftBookTests.swift */,
+				76A57D1A196ACFB200B08A98 /* Supporting Files */,
+			);
+			path = SwiftBookTests;
+			sourceTree = "<group>";
+		};
+		76A57D1A196ACFB200B08A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A57D1B196ACFB200B08A98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A57D26196ACFEA00B08A98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76A57D27196ACFFC00B08A98 /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A57D03196ACFB200B08A98 /* Tnite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A57D20196ACFB200B08A98 /* Build configuration list for PBXNativeTarget "Tnite" */;
+			buildPhases = (
+				76A57D00196ACFB200B08A98 /* Sources */,
+				76A57D01196ACFB200B08A98 /* Frameworks */,
+				76A57D02196ACFB200B08A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tnite;
+			productName = SwiftBook;
+			productReference = 76A57D04196ACFB200B08A98 /* Tnite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A57D15196ACFB200B08A98 /* TniteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A57D23196ACFB200B08A98 /* Build configuration list for PBXNativeTarget "TniteTests" */;
+			buildPhases = (
+				76A57D12196ACFB200B08A98 /* Sources */,
+				76A57D13196ACFB200B08A98 /* Frameworks */,
+				76A57D14196ACFB200B08A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A57D18196ACFB200B08A98 /* PBXTargetDependency */,
+			);
+			name = TniteTests;
+			productName = SwiftBookTests;
+			productReference = 76A57D16196ACFB200B08A98 /* TniteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A57CFC196ACFB200B08A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Brian Coleman";
+				TargetAttributes = {
+					76A57D03196ACFB200B08A98 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9NFHG7N8J8;
+					};
+					76A57D15196ACFB200B08A98 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 76A57D03196ACFB200B08A98;
+					};
+				};
+			};
+			buildConfigurationList = 76A57CFF196ACFB200B08A98 /* Build configuration list for PBXProject "Tnite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A57CFB196ACFB200B08A98;
+			productRefGroup = 76A57D05196ACFB200B08A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A57D03196ACFB200B08A98 /* Tnite */,
+				76A57D15196ACFB200B08A98 /* TniteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A57D02196ACFB200B08A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A57D0F196ACFB200B08A98 /* Main.storyboard in Resources */,
+				76A57D11196ACFB200B08A98 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A57D14196ACFB200B08A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A57D00196ACFB200B08A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C95A561AE5A00A00A48EB1 /* SwiftyUserDefaults.swift in Sources */,
+				23C95A531AE59EFD00A48EB1 /* SwiftOverlays.swift in Sources */,
+				23C95A581AE5A65D00A48EB1 /* *AddressBook.swift in Sources */,
+				23C95A5E1AE5A9FD00A48EB1 /* SwiftyJSON.swift in Sources */,
+				23C95A621AE5EB1C00A48EB1 /* structs.swift in Sources */,
+				23CF378C1AE74F340087B5E8 /* YNImageView.swift in Sources */,
+				23CF378D1AE74F340087B5E8 /* YNImageAsyncExtensions.swift in Sources */,
+				23C95A601AE5AA0F00A48EB1 /* JMAddressBook.swift in Sources */,
+				76A57D0C196ACFB200B08A98 /* ViewController.swift in Sources */,
+				76A57D0A196ACFB200B08A98 /* AppDelegate.swift in Sources */,
+				23C95A5C1AE5A9E600A48EB1 /* JMBackend.swift in Sources */,
+				23CF378B1AE74F340087B5E8 /* YNCircleIndicator.swift in Sources */,
+				23C95A511AE59D5800A48EB1 /* *Feed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A57D12196ACFB200B08A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A57D1D196ACFB200B08A98 /* SwiftBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A57D18196ACFB200B08A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A57D03196ACFB200B08A98 /* Tnite */;
+			targetProxy = 76A57D17196ACFB200B08A98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A57D0D196ACFB200B08A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A57D0E196ACFB200B08A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A57D1E196ACFB200B08A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76A57D1F196ACFB200B08A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A57D21196ACFB200B08A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/SwiftBook/Frameworks\"",
+				);
+				INFOPLIST_FILE = SwiftBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Tnite;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBook/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		76A57D22196ACFB200B08A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/SwiftBook/Frameworks\"",
+				);
+				INFOPLIST_FILE = SwiftBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Tnite;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBook/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		76A57D24196ACFB200B08A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftBook.app/SwiftBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TniteTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		76A57D25196ACFB200B08A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftBook.app/SwiftBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TniteTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A57CFF196ACFB200B08A98 /* Build configuration list for PBXProject "Tnite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A57D1E196ACFB200B08A98 /* Debug */,
+				76A57D1F196ACFB200B08A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A57D20196ACFB200B08A98 /* Build configuration list for PBXNativeTarget "Tnite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A57D21196ACFB200B08A98 /* Debug */,
+				76A57D22196ACFB200B08A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A57D23196ACFB200B08A98 /* Build configuration list for PBXNativeTarget "TniteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A57D24196ACFB200B08A98 /* Debug */,
+				76A57D25196ACFB200B08A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A57CFC196ACFB200B08A98 /* Project object */;
+}
